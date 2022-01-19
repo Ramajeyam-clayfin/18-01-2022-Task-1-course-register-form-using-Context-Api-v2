@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react';
-import App from './App';
+
 
 export const Info = createContext();
 
@@ -8,13 +8,13 @@ export const InfoProvider = (props) => {
   const [user, setuser] = useState({
     name: '',
     mail: '',
-    mob: 0,
+    mob: null,
     gender: '',
     street: '',
     line2: '',
     city: '',
     state: '',
-    zipcode: 0,
+    zipcode: null,
     country: '',
   });
   const [course, setcourse] = useState({ lang: '', payment: '' });
