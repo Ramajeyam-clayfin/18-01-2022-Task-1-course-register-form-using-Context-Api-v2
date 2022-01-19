@@ -1,6 +1,6 @@
 # react-nc2gb5
 
-Curse Registration Form 
+Course Registration Form 
 
 Using Hooks, Context API
 
